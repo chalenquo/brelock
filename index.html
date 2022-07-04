@@ -23,7 +23,7 @@
                 .then(function(response) {
                     response.json().then(jsonData => {
                         console.log(jsonData);
-                        fetch("http://localhost:3000/pool", {
+                        fetch("https://brelock.herokuapp.com/pool", {
                             headers: {
                                 'Content-Type': 'application/json'
                             },
